@@ -1,0 +1,39 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - AGLocationDispatcher (0.0.7.2):
+    - AFNetworking (~> 2.3)
+  - Firebase (2.5.1)
+  - YandexMapKit (1.0.11)
+
+DEPENDENCIES:
+  - AGLocationDispatcher
+  - Firebase (>= 2.5.1)
+  - YandexMapKit
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  AGLocationDispatcher: cd4d05f41ac6b4c05df1dfb89b7e37c2b8d480f4
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  YandexMapKit: 70c6e0819e88f742e3800711f7aedecaf3029300
+
+COCOAPODS: 0.39.0
